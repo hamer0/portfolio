@@ -17,7 +17,7 @@ export const Portfolio = () => {
         })
         .then(json => setEntries(json as PortfolioEntry[]))
         .catch(err => console.error(err));
-    })
+    },[])
 
     return (
         <Section>
