@@ -1,7 +1,28 @@
 .app-container {
     display: flex;
     flex-direction: column;
-    gap: 160px;
-    padding: 0px 200px;
-    padding-bottom: 160px;
+}
+
+.app-container--responsive {
+    gap: 80px;
+    padding: 0px 40px;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 1024px) {
+    .app-container--responsive {
+        gap: 160px;
+        padding: 0px 160px;
+        padding-bottom: 160px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .app-container--responsive {
+        gap: 160px;
+        width: 1120px;
+        padding: 0px;
+        margin: auto;
+        padding-bottom: 160px;
+    }
 }

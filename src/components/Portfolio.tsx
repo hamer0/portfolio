@@ -22,7 +22,7 @@ export const Portfolio = () => {
     return (
         <Section>
             <Decorated><h2>Portfolio</h2></Decorated>
-            <div className="portfolio-cards">
+            <div className="portfolio-cards portfolio-cards--responsive">
                 {entries?.map(entry => <PortfolioCard key={entry.title} data={entry}/>)}
             </div>
         </Section>

@@ -4,7 +4,7 @@ import { Hero } from "./components/Hero";
 import { Portfolio } from "./components/Portfolio";
 
 function App() {
-  return <div className="app-container">
+  return <div className="app-container app-container--responsive">
     <Hero/>
     <Portfolio/>
     <Contact />

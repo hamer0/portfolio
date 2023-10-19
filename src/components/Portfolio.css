@@ -1,5 +1,14 @@
 .portfolio-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+
+.portfolio-cards--responsive {
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .portfolio-cards--responsive {
+        grid-template-columns: 1fr 1fr;
+    }
 }
