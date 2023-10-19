@@ -1,5 +1,5 @@
 .portfolio-card {
-    background-color: #F3F2EF;
+    /* background-color: #F3F2EF; */
     border-radius: 8px;
 
     display: flex;
@@ -12,6 +12,31 @@
 .portfolio-card__image {
     width: 100%;
     aspect-ratio: 16/9;
+    border-radius: 8px;
+    border: solid 2px currentColor;
+
+    position: relative;
+}
+
+/* .portfolio-card__image::before {
+    content: '';
+    width: 105%;
+    height: 80%;
+    background-color: #FED237;
+    position: absolute;
+
+    left: -2.5%;
+    bottom: -5%;
+
+    z-index: -1;
+
+    rotate: -1.5deg;
+} */
+
+.portfolio-card__image img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-card__content {

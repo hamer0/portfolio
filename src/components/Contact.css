@@ -6,7 +6,9 @@
 }
 
 .contact__email {
+    color: currentColor;
     text-decoration: solid underline #FED237 2px;
     text-underline-offset: 4px;
+    font-weight: bold;
     cursor: pointer;
 }
