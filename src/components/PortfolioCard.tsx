@@ -18,7 +18,7 @@ export const PortfolioCard = ({data}: PortfolioCardProps) => {
         </div>
 
         <span className="portfolio-card__buttons">
-            {data.code && <Button onclick={() => {window.open(data.code,'_blank')}}>Code</Button>}
+            {data.code && <Button onclick={() => {window.open(data.code,'_blank')}}>Source code</Button>}
             {data.view && <Button onclick={() => window.open(data.view,'_blank')}>See project</Button>}  
         </span>
     </div>
