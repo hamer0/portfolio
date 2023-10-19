@@ -1,0 +1,12 @@
+.contact__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contact__email {
+    text-decoration: solid underline #FED237 2px;
+    text-underline-offset: 4px;
+    cursor: pointer;
+}

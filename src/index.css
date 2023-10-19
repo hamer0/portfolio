@@ -7,6 +7,11 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F9F9F7;
+  color: #2C2C34;
+
+  scroll-behavior: smooth;
 }
 
 code {
@@ -24,4 +29,20 @@ code {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
 }

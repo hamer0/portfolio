@@ -1,0 +1,7 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    padding: 0px 200px;
+    padding-bottom: 160px;
+}

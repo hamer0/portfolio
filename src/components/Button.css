@@ -1,0 +1,29 @@
+.Button {
+    height: 40px;
+    width: fit-content;
+
+    background-color: transparent;
+
+    border-radius: 8px;
+    border: none;
+
+    gap: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    text-decoration: solid underline #FED237 2px;
+    text-underline-offset: 4px;
+
+    color: currentColor;
+}
+
+/* .Button:hover {
+} */

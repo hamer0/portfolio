@@ -1,0 +1,28 @@
+.portfolio-card {
+    background-color: #F3F2EF;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    gap: 20px;
+}
+
+.portfolio-card__image {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.portfolio-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio-card__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}

@@ -1,0 +1,19 @@
+.decorated__container {
+    position: relative;
+    width: fit-content;
+}
+
+.decorated__children {
+    position: inherit;
+    z-index: 1;
+}
+
+.decorated__decoration {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: -2.5%;
+    width: 105%;
+    height: 20px;
+    background-color: #FED237;
+    rotate: -1.5deg;
+}
