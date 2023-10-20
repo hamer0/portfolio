@@ -1,5 +1,11 @@
 [
     {
+        "title":"micro:bit C++ editor",
+        "description":"Contracted to adapt an <a target='_blank' href='https://github.com/microbit-foundation/python-editor-v3'>existing python IDE codebase</a> (React) to support the C++ language and in-browser compilation.",
+        "imgsrc":"images/cppeditor.png",
+        "view":"https://tinyurl.com/cpp-editor"
+    },
+    {
         "title":"minimicon",
         "description":"A collection of UI icons available to copy in SVG, JSX and React Native SVG formats.",
         "imgsrc":"images/minimicon.png",

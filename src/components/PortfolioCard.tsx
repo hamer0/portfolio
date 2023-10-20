@@ -14,7 +14,7 @@ export const PortfolioCard = ({data}: PortfolioCardProps) => {
         
         <div className="portfolio-card__content">
             <h3 className="portfolio-card__heading">{data.title}</h3>
-            <p>{data.description}</p>
+            <p dangerouslySetInnerHTML={{__html: data.description}}></p>
         </div>
 
         <span className="portfolio-card__buttons">

@@ -60,3 +60,36 @@ h3 {
     font-size: 24px;
   }
 }
+
+
+a {
+  color: currentColor;
+  text-decoration: solid underline #FED237 2px;
+  text-underline-offset: 4px;
+  font-weight: bold;
+  cursor: pointer;
+
+  position: relative;
+  z-index: 1;
+}
+
+a::before {
+  content: '';
+  background-color: #FED237;
+  position: absolute;
+  left: -1%;
+  width: 0%;
+  bottom: -6px;
+  transform-origin: 0 50%;
+  height: 24px;
+  z-index: -1;
+
+  rotate: -1deg;
+
+  transition: none;
+}
+
+a:hover::before {
+  width: 102%;
+  transition: all .2s ease-in-out;
+}

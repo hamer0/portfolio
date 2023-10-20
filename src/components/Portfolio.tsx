@@ -15,7 +15,7 @@ export const Portfolio = () => {
             if (!res.ok) throw new Error("Unable to fetch portfolio");
             return res.json();
         })
-        .then(json => setEntries(json as PortfolioEntry[]))
+        .then(json => setEntries((json as PortfolioEntry[]).reverse()))
         .catch(err => console.error(err));
     },[])
 
