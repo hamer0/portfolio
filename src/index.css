@@ -65,10 +65,13 @@ h3 {
 a {
   color: currentColor;
   
-  text-decoration: solid underline #FED237 2px;
+  /* text-decoration: solid underline #FED237 2px; */
+  text-decoration-line: underline;
+  text-decoration-color: #FED237;
+  text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 
-  -webkit-text-decoration: solid underline #FED237 2px;
+  /* -webkit-text-decoration: solid underline #FED237 2px; */
   -webkit-text-underline-offset: 4px; 
 
   font-weight: bold;
