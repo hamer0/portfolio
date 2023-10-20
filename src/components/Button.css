@@ -24,6 +24,9 @@
     text-decoration: solid underline #FED237 2px;
     text-underline-offset: 4px;
 
+    -webkit-text-decoration: solid underline #FED237 2px;
+    -webkit-text-underline-offset: 4px; 
+
     position: relative;
     z-index: 1;
 }
