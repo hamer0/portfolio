@@ -11,5 +11,11 @@
         "imgsrc":"images/minimicon.png",
         "code":"https://github.com/hamer0/minimicon",
         "view":"https://minimicon.com"
+    },
+    {
+        "title":"ZippyPDF",
+        "description":"An online PDF merger. Provides free ultra-fast and secure tooling.",
+        "imgsrc":"images/zippypdf.png",
+        "view":"https://zippypdf.netlify.app/"
     }
 ]
