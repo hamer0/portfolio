@@ -7,7 +7,7 @@ export const Contact = () => {
     return (
         <Section>
             <Decorated><h2 id="contact">Get in touch</h2></Decorated>
-            <p>I'm currently open for work so, if you're interested, shoot me an email at <a href="mailto:lewis@lewishamer.co.uk" className="contact__email">lewis@lewishamer.co.uk</a> and we can get talking. You can also reach out to me on other platforms too!</p>
+            <p>Shoot me an email at <a href="mailto:lewis@lewishamer.co.uk" className="contact__email">lewis@lewishamer.co.uk</a> and we can get talking. You can also reach out to me on other platforms too!</p>
 
             <span className="contact__buttons">
                 <Button onclick={() => window.open('https://www.linkedin.com/in/lewis-hamer/','_blank')}>
